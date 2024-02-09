@@ -1,0 +1,81 @@
+#Esta es la tarea fundamentos de Python
+#PARTE 1: Introducción a Python
+print ("Hello world")
+
+#PARTE 2: SINTAXIS 
+# En esta parte asignaremos números a las variables y luego se multiplicarán las mismas
+
+print ("ingrese un número:")
+N1 = float(input())
+print ("Ingrese un segundo número")
+N2 = float(input())
+Mult = N1*N2
+print ("La multiplicación es:" ,Mult)
+
+#PARTE 3: VARIABLES EN PYTHON
+#Agregamos variables a los inputs de manera en que se queden almancenados y podamos personalizar un texto final
+
+
+print ("Gracias por aplicar al programa, para continuar por favor responder lo siguente:")
+print ("¿Cuál es tu nombre?")
+Nombre = input()
+print ("Cuántos años tienes?")
+Edad = input()
+print ("¿En qué ciudad vives?")
+Ciudad = input()
+
+print ("Eso ha sido todo", Nombre)
+print ("En resumidas cuentas, tienes:", Edad) 
+print("Además resides en:", Ciudad)
+
+#PARTE 4: TIPOS DE DATOS EN PYTHON
+# EN ESTA SECCIÓN PRIMERO TENEMOS LA INVESTIGACIÓN
+#Estos son algunosd de los tipos de datos en Python: Numéricos
+"""
+1- Datos de texto
+2- Booleanos
+3- De secuencias
+4- De mapeo
+5- Conjuntos
+6- De bytes
+
+"""
+
+#Para la parte B del ejercicio, llevamos a cabo un programa con 3 de los tipos:
+
+# Datos de una persona
+nombre2 = "Juan"
+edad2 = 30
+altura = 1.75
+
+# Datos de un producto
+nombre_producto = "Café"
+precio = 2.50
+disponible = True
+
+# Datos de una lista de compras
+lista_compras = ["Leche", "Pan", "Huevos"]
+
+# Imprimir los datos de la persona
+print("Nombre:", nombre2)
+print("Edad:", edad2)
+print("Altura:", altura)
+
+# Imprimir los datos del producto
+print("Producto:", nombre_producto)
+print("Precio:", precio)
+print("Disponible:", disponible)
+
+# Imprimir la lista de compras
+print("Lista de compras:", lista_compras)
+
+"""
+Este programa utiliza tres tipos de datos diferentes: cadena de caracteres (string) para almacenar
+el nombre de una persona y de un producto, números enteros (int) para almacenar la edad de una
+persona, y números de punto flotante (float) para almacenar la altura de una persona y el precio de
+un producto. También utiliza un tipo de dato booleano (bool) para representar si un producto está disponible o no.
+Además, se utiliza una lista (list) para almacenar una lista de compras.
+
+"""
+
+
