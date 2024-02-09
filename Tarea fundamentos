@@ -6,14 +6,18 @@ print ("Hello world")
 # En esta parte asignaremos números a las variables y luego se multiplicarán las mismas
 
 print ("ingrese un número:")
+#Utilizamos un nombre cualquiera para agregar la variable, a su vez, llevando float como tipo de dato de número
+#Y, luego, input para decirle al usuario que coloque algo en lugar de que se cierre el programa
 N1 = float(input())
 print ("Ingrese un segundo número")
+#Repetimos el proceso
 N2 = float(input())
+#Asignamos a una variable la operación matemática y luego colocamos coma para insertar dicha variable
 Mult = N1*N2
 print ("La multiplicación es:" ,Mult)
 
 #PARTE 3: VARIABLES EN PYTHON
-#Agregamos variables a los inputs de manera en que se queden almancenados y podamos personalizar un texto final
+#Agregamos variables a los inputs de manera en que se queden almacenados y podamos personalizar un texto final
 
 
 print ("Gracias por aplicar al programa, para continuar por favor responder lo siguente:")
